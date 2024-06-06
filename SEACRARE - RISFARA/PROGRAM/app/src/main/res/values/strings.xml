@@ -2,5 +2,6 @@
     <string name="app_name">Seacare</string>
     <string name="icback">back</string>
     <string name="seacare">SeaCare</string>
+    <string name="spesies_yang_dilindungi">Spesies yang dilindungi</string>
 
 </resources>
