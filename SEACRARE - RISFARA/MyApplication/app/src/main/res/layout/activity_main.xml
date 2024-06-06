@@ -76,6 +76,7 @@
         android:layout_height="93dp"
         android:fontFamily="@font/poppins_extrabold"
         android:text="Informasi Laut di Indonesia"
+        android:drawableLeft="@drawable/water_solid"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="25sp"
