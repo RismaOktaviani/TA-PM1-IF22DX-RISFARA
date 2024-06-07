@@ -1,7 +1,41 @@
 <resources>
-    <string name="app_name">Seacare</string>
-    <string name="icback">back</string>
-    <string name="seacare">SeaCare</string>
-    <string name="spesies_yang_dilindungi">Spesies yang dilindungi</string>
+    <string name="SeaCare">Seacare</string>
+
+
+    //dugong
+    <string name="Dugongdetail">Dugong</string>
+    \nIkan  Dugong
+    \nadalah  inniininiinin
+    <string name="Dugongdesc">dugong adalah jenis ikan</string>
+
+    //Paus
+    <string name="pausdetail">Paus</string>
+    \nIkan  Dugong
+    \nadalah  inniininiinin
+    <string name="pausgdesc">dugong adalah jenis ikan</string>
+
+    //Ikan Hiu  Paus
+    <string name="Hiugdetail">Hiu</string>
+    \nIkan  Hitu
+    \nadalah  inniininiinin
+    <string name="Hiudesc">dugong adalah jenis ikan</string>
+
+    //Lumba Lumba
+    <string name="Lumbadetail">Lumba Lumba</string>
+    \nIkan  Dugong
+    \nadalah  inniininiinin
+    <string name="Lumbadesc">dugong adalah jenis ikan</string>
+
+    //Ikan pari manta
+    <string name="parimantadetail">parimanta</string>
+    \nIkan  Dugong
+    \nadalah  inniininiinin
+    <string name="parimantadesc">dugong adalah jenis ikan</string>
+
+    //penyu
+    <string name="penyudetail">Penyu</string>
+    \nIkan  Dugong
+    \nadalah  inniininiinin
+    <string name="penyudesc">dugong adalah jenis ikan</string>
 
 </resources>
