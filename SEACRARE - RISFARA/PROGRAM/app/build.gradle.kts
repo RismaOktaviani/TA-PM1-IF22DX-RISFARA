@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.uti.myapplication"
+    namespace = "com.uti.tampilan_artikel"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.uti.myapplication"
+        applicationId = "com.uti.tampilan_artikel"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.uti.myapplication
+package com.uti.Seacare
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

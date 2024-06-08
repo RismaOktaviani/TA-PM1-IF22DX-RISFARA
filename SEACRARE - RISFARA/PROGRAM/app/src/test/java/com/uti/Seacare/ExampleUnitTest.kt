@@ -1,4 +1,4 @@
-package com.uti.myapplication
+package com.uti.Seacare
 
 import org.junit.Test
 
