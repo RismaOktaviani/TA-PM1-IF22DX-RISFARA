@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/article_nav_graph"
-    app:startDestination="@id/artikelFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/artikelFragment"
@@ -12,9 +12,26 @@
     <fragment
         android:id="@+id/spesiesFragment"
         android:name="com.uti.myapplication.fragments.SpesiesFragment"
-        android:label="SpesiesFragment" />
+        android:label="SpesiesFragment" >
+        <action
+            android:id="@+id/action_spesiesFragment_to_artikelFragment"
+            app:destination="@id/artikelFragment" />
+    </fragment>
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.uti.myapplication.fragments.HomeFragment"
-        android:label="HomeFragment" />
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_artikelFragment"
+            app:destination="@id/artikelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infooFragment"
+        android:name="com.example.newsprojectpractice.InfooFragment"
+        android:label="fragment_infoo"
+        tools:layout="@layout/fragment_infoo" >
+        <action
+            android:id="@+id/action_infooFragment_to_artikelFragment"
+            app:destination="@id/artikelFragment" />
+    </fragment>
 </navigation>
