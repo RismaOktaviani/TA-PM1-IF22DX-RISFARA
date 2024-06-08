@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/article_nav_graph"
+    app:startDestination="@id/artikelFragment">
+
+    <fragment
+        android:id="@+id/artikelFragment"
+        android:name="com.uti.myapplication.fragments.ArtikelFragment"
+        android:label="ArtikelFragment" />
+    <fragment
+        android:id="@+id/spesiesFragment"
+        android:name="com.uti.myapplication.fragments.SpesiesFragment"
+        android:label="SpesiesFragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.uti.myapplication.fragments.HomeFragment"
+        android:label="HomeFragment" />
+</navigation>
